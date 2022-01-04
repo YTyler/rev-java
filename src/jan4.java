@@ -26,6 +26,7 @@ public class jan4 {
                     System.out.println("2. Area");
                     System.out.print("Enter your choice: ");
                     int property = scan.nextInt();
+                    scan.nextLine();
                     break;
                 case 2:
                     break;
