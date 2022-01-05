@@ -1,4 +1,4 @@
-package jan4;
+package week1.day1;
 
 public class Circle {
     public static double area(double radius) {

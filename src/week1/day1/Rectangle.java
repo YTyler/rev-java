@@ -1,4 +1,4 @@
-package jan4;
+package week1.day1;
 
 public class Rectangle {
     public static double area(double side1, double side2) {

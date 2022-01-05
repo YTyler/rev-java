@@ -1,4 +1,4 @@
-package jan4;
+package week1.day1;
 
 public class TempConverter {
     public static double toCelsius(double temperature) {

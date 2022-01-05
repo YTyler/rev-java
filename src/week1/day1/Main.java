@@ -1,4 +1,4 @@
-package jan4;
+package week1.day1;
 
 // a. Calculate the area and the perimeter of triangle, rectangle, circle (either 3 programs or 6 programs for each shape)
 // b. Conversion: Temperature (Celsius -> F and F -> to C || Centimeter to inches and Inches to centimeter)

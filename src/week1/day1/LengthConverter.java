@@ -1,4 +1,4 @@
-package jan4;
+package week1.day1;
 
 public class LengthConverter {
     public static double inchesToCentimeters(double inches) { return inches * 2.54; }
