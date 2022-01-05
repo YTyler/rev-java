@@ -1,5 +1,8 @@
 package jan4;
 
+// a. Calculate the area and the perimeter of triangle, rectangle, circle (either 3 programs or 6 programs for each shape)
+// b. Conversion: Temperature (Celsius -> F and F -> to C || Centimeter to inches and Inches to centimeter)
+
 import java.util.Scanner;
 
 public class Main {
@@ -83,8 +86,43 @@ public class Main {
                         System.out.println("One of the values entered was invalid");
                     }
                     break;
-                case 2:
+//UnitConversion
+                    case 2:
+                    System.out.println("1. Fahrenheit --> Celsius");
+                    System.out.println("2. Celsius --> Fahrenheit");
+                    System.out.println("3. Centimeters --> Inches");
+                    System.out.println("4. Inches --> Centimeters");
+                    System.out.print("Enter your choice: ");
+                    int convert = scan.nextInt();
+                    scan.nextLine();
+                    if (convert == 1) {
+                        System.out.println("Enter the fahrenheit value");
+                        int temp = scan.nextInt();
+                        scan.nextLine();
+                        System.out.printf("The converted value is %.2f degrees celsius", TempConverter.toCelsius(temp));
+                        System.out.println();
+                    } else if (convert == 2) {
+                        System.out.println("Enter the celsius value");
+                        int temp = scan.nextInt();
+                        scan.nextLine();
+                        System.out.printf("The converted value is %.2f degrees fahrenheit", TempConverter.toFahrenheit(temp));
+                        System.out.println();
+                    } else if (convert == 3) {
+                        System.out.println("Enter the length in centimeters");
+                        int length = scan.nextInt();
+                        scan.nextLine();
+                        System.out.printf("The converted value is %.2f inches", LengthConverter.centimetersToInches(length));
+                        System.out.println();
+                    } else if (convert == 4) {
+                        System.out.println("Enter the length in inches");
+                        int length = scan.nextInt();
+                        scan.nextLine();
+                        System.out.printf("The converted value is %.2f inches", LengthConverter.inchesToCentimeters(length));
+                        System.out.println();
+                    }
                     break;
+                case 3:
+                    System.out.println("Goodbye");
                 default:
                     System.out.println("That is an invalid choice");
                     break;
