@@ -16,10 +16,10 @@ public class FindLargest {
         int third = scan.nextInt();
         scan.nextLine();
         int largest = first;
-        if (largest < second) {
+        if (largest < second) { //find larger between first and second
             largest = second;
         }
-        if (largest < third) {
+        if (largest < third) { // find larger between previous comparison and third
             largest = third;
         }
         System.out.println("The largest of these numbers is " + largest);
