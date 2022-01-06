@@ -1,8 +1,8 @@
 package week1.day3.polymorph;
 
 public abstract class Polygon {
-    private int dim1;
-    private int dim2;
+    protected int dim1;
+    protected int dim2;
 
     public Polygon() {
     }
