@@ -21,16 +21,16 @@ public class ArrayPractice {
         int max = arr[0];
         int min = arr[0];
         System.out.println("These are the elements you entered");
-        for (int i = 0; i < arr.length; i++) {
-            if(arr[i] > max){
-                max = arr[i];
+        for (int j : arr) {
+            if (j > max) {
+                max = j;
             }
 
-            if(arr[i] < min){
-                min = arr[i];
+            if (j < min) {
+                min = j;
             }
-            sum+=arr[i];
-            System.out.print(arr[i] + " ");
+            sum += j;
+            System.out.print(j + " ");
         }
         System.out.println();
 
@@ -62,13 +62,13 @@ public class ArrayPractice {
         System.out.println();
         System.out.println("Resulting Arrays and their Sums");
         int grand_sum = 0;
-        for(int i=0; i < arr.length; i++) {
+        for (int[] ints : arr) {
             int row_sum = 0;
             System.out.print("{ ");
-            for(int j=0; j < arr[i].length; j++) {
-                row_sum += arr[i][j];
-                grand_sum += arr[i][j];
-                System.out.print(arr[i][j]+" ");
+            for (int anInt : ints) {
+                row_sum += anInt;
+                grand_sum += anInt;
+                System.out.print(anInt + " ");
             }
             System.out.print("} ");
             System.out.println("Sum: " + row_sum);
