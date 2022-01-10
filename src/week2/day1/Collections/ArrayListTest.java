@@ -1,13 +1,13 @@
-package week2.day1;
+package week2.day1.Collections;
 
+import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.LinkedList;
 
-public class LinkedListTest {
+public class ArrayListTest {
     public static void main(String[] args) {
-        LinkedList<Integer> intList = new LinkedList<>();
+        ArrayList<Integer> intList = new ArrayList<>();
 
-    //Storing elements into a LinkedList
+    //Storing elements into an ArrayList
         //Instantiate and add
         Integer myInt = new Integer(10);
         intList.add(myInt);
@@ -17,25 +17,17 @@ public class LinkedListTest {
         Integer anotherInt = 7;
         intList.add(anotherInt);
 
-        //Autoboxing + add
+        //Autoboxing + add (one line)
         intList.add(9);
         intList.add(1);
         intList.add(10);
         intList.add(15);
 
-    //Retrieve elements of a LinkedList
-
-    //Positional Access - Only Applicable for List implementations
+    //Retrieve elements of an ArrayList
+        //Positional Access - Only Applicable for List implementations
         for (int i = 0; i < intList.size(); i++){
             System.out.println("Element at the position "+i+ " is "+intList.get(i));
         }
-        System.out.println();
-
-        System.out.println("adding 100 at first");
-        intList.addFirst(100);
-
-        System.out.println("adding 99 at last");
-        intList.addLast(99);
 
         //Using Iterator - applicable for all Collection implementations
         System.out.println("Using Iterator");

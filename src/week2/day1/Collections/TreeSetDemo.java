@@ -1,6 +1,8 @@
-package week2.day1.comparisonDemo;
+package week2.day1.Collections;
 
-import java.util.Iterator;
+import week2.day1.Employee;
+import week2.day1.EmployeeFirstNameComparator;
+
 import java.util.TreeSet;
 
 public class TreeSetDemo {

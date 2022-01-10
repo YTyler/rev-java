@@ -1,4 +1,4 @@
-package week2.day1;
+package week2.day1.Collections;
 
 import java.util.Iterator;
 import java.util.TreeSet;

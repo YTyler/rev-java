@@ -1,4 +1,4 @@
-package week2.day1;
+package week2.day1.Collections;
 
 import java.util.HashSet;
 import java.util.Iterator;
