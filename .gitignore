@@ -5,3 +5,4 @@
 # other ignored files
 /out/
 /output.dat
+/target/
