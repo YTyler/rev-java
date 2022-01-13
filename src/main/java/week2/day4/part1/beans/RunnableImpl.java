@@ -1,4 +1,4 @@
-package week2.day4.beans;
+package week2.day4.part1.beans;
 
 public class RunnableImpl implements Runnable {
     @Override

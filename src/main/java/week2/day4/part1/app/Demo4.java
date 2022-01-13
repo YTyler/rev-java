@@ -1,4 +1,4 @@
-package week2.day4.app;
+package week2.day4.part1.app;
 
 public class Demo4 {
     public static void main(String[] args) {

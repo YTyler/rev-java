@@ -1,6 +1,6 @@
-package week2.day4.app;
+package week2.day4.part1.app;
 
-import week2.day4.beans.MyFunctionalInterface;
+import week2.day4.part1.beans.MyFunctionalInterface;
 
 public class Demo5 {
     public static void main(String[] args) {

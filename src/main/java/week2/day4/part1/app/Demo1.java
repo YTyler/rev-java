@@ -1,6 +1,6 @@
-package week2.day4.app;
+package week2.day4.part1.app;
 
-import week2.day4.beans.RunnableImpl;
+import week2.day4.part1.beans.RunnableImpl;
 
 public class Demo1 {
     public static void main(String[] args) {
