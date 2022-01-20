@@ -1,8 +1,8 @@
 # Default ignored files
 /shelf/
-/.idea/workspace.xml
+/week1&2/.idea/workspace.xml
 
 # other ignored files
 /out/
-/output.dat
+/week1&2/output.dat
 /target/
